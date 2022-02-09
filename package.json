@@ -1,0 +1,16 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontEnd": "node ./cypress/integration/frontEnd.spec.js",
+    "backEnd": "node ./cypress/integration/backEnd.spac.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "4.1"
+  }
+}
